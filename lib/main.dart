@@ -74,8 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
     dictRoots.forEach((element) {
       element.children.sort((a, b) {
         int ab = a.isfolder == true ? 1 : 0;
-        int ba = b.isfolder == true ? 1 : 0;
-        return a.title.compareTo(b.title) & ba.compareTo(ab);
+        int bb = b.isfolder == true ? 1 : 0;
+        return a.title.compareTo(b.title) & bb.compareTo(ab);
       });
     });
 
