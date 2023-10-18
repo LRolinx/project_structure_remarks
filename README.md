@@ -1,6 +1,6 @@
-# project_structure_remarks
+# project_structure_remarks 项目结构说明生成工具
 
-A new Flutter project.
+一款使用Flutter框架搭建的项目结构说明生成工具，用于对项目的各个目录文件进行快速备注
 
 ## Getting Started
 
